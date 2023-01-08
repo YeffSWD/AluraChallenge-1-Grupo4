@@ -1,2 +1,2 @@
-# AluraChallenge-1-Grupo4
+# AluraChallenge #1 - Grupo 4
 Encriptador de texto - Lógica de programación
