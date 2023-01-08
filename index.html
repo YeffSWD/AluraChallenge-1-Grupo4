@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador - One Challenge #1</title>
+
+    <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+<body>
+    <div class="main">
+        <div class="leftContainer">
+            <header>
+                <div class="header">
+                    <img src="./src/img/AluraIcon.svg" alt="aluraIcon">
+                </div>
+            </header>
+            <div class="inputContainer">
+                <textarea class="inputClass inputArea" name="inputText" id="inputText" cols="30" rows="10" placeholder="Por favor Ingrese un Texto..."></textarea>
+            </div>
+            <div class="nota">
+                <img class="sign" src="./src/img/round-warning.svg" alt="warning-sign">
+                <p>Acepta letras minúsculas y sin acentos</p>
+            </div>
+            <div class="buttonsContainer">
+                <button class="primarybtn" type="button" onclick="encriptar ();">
+                    Encriptar
+                </button>
+                <button class="secondarybtn" type="button" onclick="desencriptar ();">
+                    Desencriptar
+                </button>
+            </div>
+            <div >
+    
+            </div>
+        </div>
+        <div class="rightContainer">
+            <div class="outputContainer">
+                <textarea class="inputClass outputArea" name="outputText" id="outputText" cols="30" rows="10" placeholder="No se ha encontrado ningún texto" disabled></textarea>
+            </div>
+            <div class="CopyButtonContainer">
+                <p id="copySuccessLabel" style="display: none;">Copiado exitosamente!</p>
+                <button class="secondarybtn" type="button" onclick="copy ();">Copiar</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <p>Este encriptador fué realizado por Yefri Aridanel Ramos de Tegucigalpa, Honduras, formo parte del grupo #4 de la formación ONE!</p>
+        </div>
+    </footer>
+    
+    <script src="./src/js/main.js"></script>
+</body>
+</html>
